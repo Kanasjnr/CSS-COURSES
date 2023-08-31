@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&family=Roboto:wght@100;300;400;500;700&family=Sofia+Sans:wght@100;200;300;400;500;600;700;800&family=Syne:wght@400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    color: inherit;
+    list-style-type: none;
+}
+html{
+    font-size: 65.2%;
+    overflow-x: hidden;
+}
+ .sticky .header{ 
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255,.9);
+}
+body{
+    background-color: #F2FEFF;
+    font-family: 'Sofia Sans', sans-serif;
+}
+.header{
+    background-color: #E8EDED;
+    display: flex;
+     flex-direction: row;
+    justify-content: space-between; 
+    align-items: center;
+    display: flex;
+    padding:0 4.8rem;
+     height: 9.6rem; 
+     box-shadow: 0px 1.2rem 3.2rem rgba(0, 0, 0,0.30); 
+     
+   
+}
+.headerText{
+    color: #1C1C1C;
+    text-decoration: none;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.mainNavList{
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    color: #1C1C1C;
+    gap: 3.2rem;
+    font-size: 20px;
+}
+.mainNavList:link, .mainNavList:visited{
+    color: #1C1C1C;
+ 
+}
+.mainNavList:hover, .mainNavList:visited{
+    color: #1C1C1C;  
+}
+.mainNavList > link:hover, .mainNavList > link:active{
+    text-decoration: underline;
+}
+.mainNavLink:link, .mainNavLink:visited{
+    text-decoration: none;
+    color: #1C1C1C;
+    font-size: 20px;
+}
+.mainNavLink:hover, .mainNavLink:active{
+    color: #6fcade;
+    text-decoration: underline;
+}
+.navBtn{
+    display: flex;
+   gap: 1rem;
+}
+.btn, .btnlink, .btn:visited{
+    /* background-color: #9FB7B9; */
+    padding: 5px 15px;
+    border-radius: 3px;
+    cursor: pointer;
+    border: none;
+    text-decoration: none;
+    font-size: 15px;
+    transition: all 0.5s;  
+    font-family: 'Syne', sans-serif; 
+   
+}
+
+.loginButton:link, .loginButton:visited{
+    background-color: #9fb7b9;
+    color: #f6f6f6;
+    font-family: 'Syne', sans-serif;
+}
+.loginButton:hover, .loginButton:active{
+    background-color:  #9fb7b9; 
+    color: #1C1C1C;
+    
+}
+.signupButton:link, .signupButton:visited{
+    border: 1px solid #1C1C1C;
+    color: #1C1C1C;
+    font-family: 'Syne', sans-serif;
+    
+}
+.signupButton:hover, .signupButtons:active{ 
+    color: #1C1C1C;
+    background-color:  #9fb7b9; 
+    /* border: 1px solid white; */
+    
+}
+.heroTea {
+    width: 782px;
+    color: #1C1C1C;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    font-family: 'Syne', sans-serif;
+    font-size: 100px;
+    font-weight: 600;
+}
+
+.teambtn {
+    display: flex;
+    width: 618.421px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+.heroTeam {
+    margin-top: 15rem;
+    color: #1C1C1C;
+    text-align: center;
+    font-family: 'Syne', sans-serif;
+    font-size: 100px;
+    font-weight: 600;
+}
+
+.teambtn {
+    color: #FFF;
+    background-color: #1c1c1c;
+    border-radius: 10px;
+    font-family: 'Sofia Sans', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+}
+
